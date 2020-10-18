@@ -77,12 +77,13 @@ $(document).ready(function () {
          $(".blog-content p").matchHeight();
          $(".footer-menu-ul").matchHeight();
 
-  $('.counter').counterUp({
-    delay: 20, 
-    time: 1000 
+
+    
+        $('.counter').counterUp({
+    delay: 30, // the delay time in ms
+    time: 1000 // the speed time in ms
   });
   
-    
     
 
 
