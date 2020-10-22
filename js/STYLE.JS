@@ -75,6 +75,8 @@ $(document).ready(function () {
          $(".blog-content h3").matchHeight();
 
          $(".blog-content p").matchHeight();
+         $(".footer-menu h5").matchHeight();
+
          $(".footer-menu-ul").matchHeight();
 
 
