@@ -473,9 +473,9 @@ body{
 }
 
 
-.banner-1-img{max-width: 500px;max-height: 300px;overflow: hidden;position: relative;right: -20px}
+.banner-1-img img{max-width: 500px;max-height: 300px;overflow: hidden;position: relative;right: -20px}
 
-@media (max-width:420px){.banner-1-img{max-height: 250px}}
+@media (max-width:420px){.banner-1-img img{max-height: 250px}}
 
  .banner-1-content {max-width:600px;padding: 0px 20px }
 
