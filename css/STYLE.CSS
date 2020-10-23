@@ -549,9 +549,9 @@ body{
 
 .banner-2-content h5 , .banner-2-content p{color: #fff;border-color: #fff}
 .banner-2-content a{color: var(--main-clr)}
-.banner-2-img {max-width: 400px;max-height: 400px;position: relative;left: -10px;bottom: -13px}
+.banner-2-img {max-width: 400px;max-height: 400px;margin-right: auto;position: relative;left: -10px;bottom: -13px}
 @media (max-width:500px){
-    .banner-2-img{max-width: 300px;max-height: 300px}
+    .banner-2-img{max-width: 300px;max-height: 300px;display: block !important}
 }
 
 

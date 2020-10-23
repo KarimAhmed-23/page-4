@@ -66,6 +66,8 @@ $(document).ready(function () {
      
          $(".our-missions").matchHeight();
 
+         $(".same-height-1").matchHeight();
+
          $(".feature-content").matchHeight();
      
          $(".blog-content").matchHeight();
