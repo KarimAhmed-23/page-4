@@ -92,13 +92,7 @@ body{
 
 }
 
-@media (max-width: 500px){
-    
-    
-    .navigation-logo a img:last-of-type{
-        width: 200px;
-    }
-}
+
 
 .navigation-body-close-button{margin-right: auto !important}
 .navigation-hosting-item{font-family:'29lt_bukrabold_italic';font-size: 14px }
@@ -149,7 +143,7 @@ body{
 }
 
 @media (max-width: 768px){
-.crumina-main-slider .swiper-slide {min-height: 70vh}
+.crumina-main-slider .swiper-slide {height: 70vh}
     .slider-content-title{max-width: 500px;margin: 0px auto var(--h-margin-bottom)}
     
     
@@ -161,7 +155,7 @@ body{
     .slider-content-title{font-size: 22px;}
     .universal-links .link-1{font-size: 14px;}
     .crumina-main-slider .swiper-btn-prev , .crumina-main-slider .swiper-btn-next{display: none}
-    .crumina-main-slider .swiper-slide {min-height: 60vh}
+    .crumina-main-slider .swiper-slide {height: 65vh}
     .slider-content-title{max-width: inherit;margin: 0px 0px var(--h-margin-bottom)}
 
 }
