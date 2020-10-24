@@ -568,13 +568,15 @@ body{
     bottom: -13px;
 }
 
+.banner-1-img img , .banner-2-img img {width: 500px}
+
+
 @media (max-width:500px){
     .banner-2-img{max-width: 320px;max-height: 320px}
-        .banner-2-content p{margin-bottom: 5px}
+    .banner-2-img img{width: 320px;height: 295px}
+    .banner-2-content p{margin-bottom: 5px}
 
 }
-
-.banner-1-img img , .banner-2-img img {width: 500px}
 
 
 .paln-steps{
