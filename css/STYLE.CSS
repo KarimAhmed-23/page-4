@@ -47,8 +47,10 @@ body{
 
 
 .slider-content-title {  font-family: '29lt_bukra_boldbold';}
-.site-header{background-color: var(--main-clr);padding: 0px}
+
 .site-header.header--fixed{background-color: var(--main-clr)}
+
+
 
 .site-header:before {
     background-image: url(../img//footer-line.png);
@@ -571,9 +573,17 @@ body{
 .banner-1-img img , .banner-2-img img {width: 500px}
 
 
+
+@media (max-width:768px){
+    
+      .banner-2-img{max-width: 350px;max-height: 350px}
+    .banner-2-img img{width: 300px;height: 280px}
+}
+
+
 @media (max-width:500px){
-    .banner-2-img{max-width: 320px;max-height: 320px}
-    .banner-2-img img{width: 320px;height: 295px}
+    .banner-2-img{max-width: 300px;max-height: 300px}
+    .banner-2-img img{width: 230px;height: 200px}
     .banner-2-content p{margin-bottom: 5px}
 
 }
