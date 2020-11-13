@@ -20,7 +20,7 @@ $(document).ready(function () {
 
          
     $(".language").click(function(){
-    $(".dropdown-language").slideToggle();
+    $(".dropdown-conutry").slideToggle();
 }) ;
    
 
@@ -31,7 +31,7 @@ $(document).ready(function () {
   accessibility: true,
   speed: 500,
   slidesToShow: 4,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   rtl:true,
   prevArrow:'<span class="prev-arrow"><i class="fas fa-angle-right"></i></span>',
   nextArrow:'<span class="next-arrow"><i class="fas fa-angle-left"></i></span>',
@@ -42,7 +42,7 @@ $(document).ready(function () {
       breakpoint: 992,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     },
     {
@@ -64,17 +64,16 @@ $(document).ready(function () {
 });
      
      
-         $(".our-missions").matchHeight();
+         $(".our-missions p").matchHeight();
 
          $(".same-height-1").matchHeight();
 
-         $(".feature-content").matchHeight();
+         $(".feature-content p").matchHeight();
      
-         $(".blog-content").matchHeight();
-
          $(".blog-content h3").matchHeight();
 
-         $(".blog-content p").matchHeight();
+         $(".blog-content").matchHeight();
+
          $(".footer-menu h5").matchHeight();
 
          $(".footer-menu-ul").matchHeight();
